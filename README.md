@@ -70,7 +70,7 @@ This example uses the Geocoding API and the Directions API with an API key:
 import googlemaps
 from datetime import datetime
 
-gmaps = googlemaps.Client(key='Add Your Key here')
+gmaps = googlemaps.Client(key='AIzaSyBwYiJ1f709RonTHasiDqTk3i9Dq3r5aSc')
 
 # Geocoding an address
 geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')

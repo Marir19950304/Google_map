@@ -13,7 +13,7 @@ def _install_test_dependencies(session):
     session.install("responses")
 
 
-def _install_doc_dependencies(session):
+def _install_doc_dependencies(session): 
     session.install("sphinx")
 
 
